@@ -1,0 +1,64 @@
+body {
+	font-family: book antiqua;
+	background-color: azure;
+}
+
+.container {
+	width: 50%;
+	margin: 33px auto;
+	background-color: lavender;
+	border-radius: 7px;
+}
+
+	.judul {
+		width: 250px;
+		height: 75px;
+		padding: 15px;
+		margin-bottom: 33px;
+		font-size: 50px;
+		font-weight: bold;
+		background-color: indigo;
+		color: lightblue;
+		border: 3px solid black;
+		border-radius: 7px 50% 50% 50%;
+		text-shadow: 0 0 0 7px rgba(255, 255, 255, .3);
+		filter: drop-shadow(7px 7px 7px indigo);
+	}
+
+	.isi {
+		padding: 15px;
+	}
+
+	li {
+		float: left;
+		margin: 15px;
+		display: block;
+		position: relative;
+		border-radius: 7px 50% 7px 50%;
+		overflow: hidden;
+		filter: drop-shadow(0 0 3px black);
+	}
+
+	.isi ul li span {
+		text-decoration: none;
+		text-align: center;
+		color: lightblue;
+		position: absolute;
+		left: 25px;
+		top: 33px;
+		text-shadow: 0 0 3px 7px indigo;
+	}
+
+	.game {
+		width: 100px;
+		height: 100px;
+	}
+
+		li:hover {
+			filter: drop-shadow(0 0 3px indigo);
+			opacity: .3;
+		}
+
+	.clear {
+		clear: both;
+	}
