@@ -21,7 +21,7 @@ body {
 		color: lightblue;
 		border: 3px solid black;
 		border-radius: 7px 50% 50% 50%;
-		text-shadow: 0 0 0 7px rgba(255, 255, 255, .3);
+		text-shadow: 0 0 7px rgba(255, 255, 255, .3);
 		filter: drop-shadow(7px 7px 7px indigo);
 	}
 
@@ -40,13 +40,15 @@ body {
 	}
 
 	.isi ul li span {
+		background-color: indigo;
+		border-radius: 7px;
 		text-decoration: none;
 		text-align: center;
 		color: lightblue;
 		position: absolute;
 		left: 25px;
 		top: 33px;
-		text-shadow: 0 0 3px 7px indigo;
+		text-shadow: 0 0 3px black;
 	}
 
 	.game {
@@ -55,10 +57,10 @@ body {
 	}
 
 		li:hover {
-			filter: drop-shadow(0 0 3px indigo);
+			box-shadow: 0 0 3px 3px indigo;
 			opacity: .3;
 		}
 
-	.clear {
+.clear {
 		clear: both;
 	}
