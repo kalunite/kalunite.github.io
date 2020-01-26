@@ -51,6 +51,16 @@
     font-weight: 600;
 }
 
+.jumbotron button {
+    margin-left: 36.5%;
+    font-size: 25px;
+    display: block;
+    border-radius: 50px;
+    border: 1px solid azure;
+    padding: 10px 20px;
+    text-shadow: 0 0 3px black;
+}
+
 /*  Container Isi */
 .container-utama {
     background-color: black;
@@ -60,7 +70,7 @@
 
 .container-utama h1 {
     color: azure;
-    font-size: 16.5px;
+    font-size: 20px;
     font-weight: 700;
     text-align: center;
 }   
@@ -68,6 +78,7 @@
 .formulir {
     width: 75%;
     margin: 25px auto;
+    display: none;
 }
 
 label {
@@ -84,12 +95,12 @@ label {
 }
 
 	.isi {
-		font-size: 25px;
-		padding: 33px;
+		font-size: 15px;
+		padding: 16.5px;
 	}
 
 		.isi p {
-			text-indent: 25px;
+			text-indent: 12.5px;
 		}
 
 	footer {
@@ -131,8 +142,25 @@ label {
         font-size: 33px;
     }
 
+    .jumbotron button {
+        margin-left: 44%;
+        font-size: 33px;
+        display: block;
+        border: 3px solid azure;
+    }
+
     .container-utama h1 {
         font-size: 33px;
         font-weight: 700;
     }
+
+    .isi {
+		font-size: 25px;
+		padding: 33px;
+	}
+
+		.isi p {
+			text-indent: 25px;
+		}
+
 }
