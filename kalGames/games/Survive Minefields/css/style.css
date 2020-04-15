@@ -1,0 +1,228 @@
+body {
+    font-family: book antiqua;
+    background-image: url(img/dirt.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+img {
+    height: 50px;
+    width: 50px;
+}
+
+.container {
+    text-align: center;
+    margin: auto;
+    width: 75%;
+    background-color: firebrick;
+    border-radius: 7px;
+    padding: 1px 0 50px 0;
+    position: relative;
+}
+
+    .container h3 {
+        color: azure;
+        text-shadow: 1px 1px 3px blueviolet, -1px -1px 3px blueviolet;
+        margin-top: 3px;
+        padding-bottom: 7px;
+        font-size: 50px;
+        font-weight: bold;
+    }
+
+    .container table {
+        margin: -35px auto;
+        background-color: azure;
+    }
+
+        .container table tr, .container table tr th  {
+            padding: 3px 3px 0 3px;
+            cursor: pointer;
+        }
+
+        .container table tr .besar-1, .besar-3, .besar-5, .besar-7, .besar-9 {
+            background-color: rgb(52, 0, 100);
+        }
+
+        .container table tr .besar-2, .besar-4, .besar-6, .besar-8 {
+            background-color: rgb(126, 171, 255);
+        }
+
+        .container table tr th img {
+            height: 50px;
+            width: 50px;
+        }
+
+        .container table tr th img:hover {
+            filter: drop-shadow(0 0 33px blueviolet);
+        }
+
+        .container table tr th img:active {
+            bottom: 2px;
+            filter: opacity(.7);
+        }
+
+    .container .area-skor {
+        width: 212px;
+        text-align: center;
+        font-size: 25px;
+        padding: 7px;
+        border-radius: 3px 3px 15% 15%;
+        background-color: azure;
+        color: firebrick;
+        text-shadow: 0 0 7px blueviolet;
+        box-shadow: 1px 1px 3px blueviolet, -1px -1px 3px blueviolet;
+        position: absolute;
+        top: 87px;
+        left: 777px;
+        display: block;
+    }
+
+        .container .area-skor .skor {
+            text-align: center;
+            padding: 3px 6px;
+            background-color: firebrick;
+            color: azure;
+            display: block;
+            border-radius: 7px 7px 25% 25%;
+            filter: drop-shadow(0 0 3px blueviolet);
+        }
+
+    .container .area-waktu {
+        width: 212px;
+        text-align: center;
+        font-size: 25px;
+        padding: 7px;
+        border-radius: 3px 3px 15% 15%;
+        background-color: azure;
+        color: firebrick;
+        text-shadow: 0 0 7px blueviolet;
+        box-shadow: 1px 1px 3px blueviolet, -1px -1px 3px blueviolet;
+        position: absolute;
+        top: 206px;
+        left: 777px;
+        display: block;
+    }
+
+        .container .area-waktu .waktu {
+            text-align: center;
+            padding: 3px 6px;
+            background-color: firebrick;
+            color: azure;
+            display: block;
+            border-radius: 7px 7px 25% 25%;
+            filter: drop-shadow(0 0 3px blueviolet);
+        }
+
+    .container .area-preview {
+        width: 226px;
+        height: 296px;
+        font-size: 15px;
+        background-color: azure;
+        color: firebrick;
+        text-shadow: 0 0 7px blueviolet;
+        position: absolute;
+        box-shadow: 1px 1px 3px blueviolet, -1px -1px 3px blueviolet;
+        top: 325px;
+        left: 777px;
+        border-radius: 3px;
+        overflow-y: auto;
+        z-index: 0;
+    }
+
+    .container .mulai-game {
+        text-decoration: none;
+        width: 226px;
+        height: 296px;
+        line-height: 296px;
+        font-size: 50px;
+        color: azure;
+        background-color: mediumslateblue;
+        text-shadow: 0 0 7px blueviolet;
+        box-shadow: 1px 1px 3px blueviolet, -1px -1px 3px blueviolet;
+        position: absolute;
+        top: 325px;
+        left: 777px;
+        cursor: pointer;
+        border-radius: 3px;
+        z-index: 1;
+    }
+
+    .container .area-petunjuk {
+        color: firebrick;
+        padding: 3px;
+        font-size: 15px;
+        text-shadow: 0 0 7px blueviolet;
+        box-shadow: 1px 1px 3px blueviolet, -1px -1px 3px blueviolet;
+        width: 222px;
+        height: 528px;
+        background-color: azure;
+        overflow: auto;
+        text-align: justify;
+        position: absolute;
+        top: 86px;
+        left: 8px;
+    }
+
+    .container .area-hasil {
+        color: azure;
+        background-image: url(img/game-over.jpg);
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-position: center center;
+        text-shadow: 0 0 7px blueviolet;
+        width: 75%;
+        height: 442px;
+        padding: 50px;
+        border-radius: 20%;
+        background-color: azure;
+        z-index: 1;
+        position: absolute;
+        top: 77px;
+        left: 77px;
+        display: none;
+    }
+
+        .container .area-hasil .skor-akhir {
+            width: 300px;
+            height: 100px;
+            line-height: 50px;
+            text-align: center;
+            font-size: 50px;
+            padding: 50px;
+            border-radius: 50%;
+            background-color: azure;
+            color: mediumslateblue;
+            text-shadow: 0 0 7px blueviolet;
+            box-shadow: 1px 1px 3px blueviolet, -1px -1px 3px blueviolet;
+            position: absolute;
+            top: 130px;
+            left: 230px;
+        }
+
+        .container .area-hasil .mulai-ulang {
+            text-decoration: none;
+            width: 600px;
+            height: 6px;
+            line-height: 3px;
+            text-align: center;
+            font-size: 33px;
+            padding: 25px;
+            border-radius: 500px;
+            background-color: mediumslateblue;
+            color: azure;
+            text-shadow: 0 0 7px blueviolet;
+            box-shadow: 1px 1px 3px blueviolet, -1px -1px 3px blueviolet;
+            position: absolute;
+            top: 400px;
+            left: 105px;
+        }
+
+.container .area-hasil .mulai-ulang:hover, .mulai-game:hover {
+    background-color: azure;
+    color: mediumslateblue;
+}
+
+.container .area-hasil .mulai-ulang:active {
+    bottom: 2px;
+    filter: opacity(.7);
+}

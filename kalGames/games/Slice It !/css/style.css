@@ -1,0 +1,74 @@
+body {
+    font-family: book antiqua;
+    background-color: cyan;
+}
+
+.mulai-game {
+    display: block;
+    text-decoration: none;
+    font-weight: 300;
+    font-size: 30px;
+    text-align: center;
+    color: midnightblue;
+    cursor: pointer;
+    margin-bottom: 10px;
+}
+
+.jambu, .lemon, .strawberry {
+    width: 120px;
+    height: 80px;
+    position: absolute;
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: 50%;
+    bottom: 500px;
+}
+
+.c3, .nanas, .mangga, .semangka {
+    width: 150px;
+    height: 100px;
+    position: absolute;
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: 50%;
+    bottom: 500px;
+}
+
+.container {
+    width: 750px;
+    height: 500px;
+    background-image: url(img/wood.jpg);
+    background-size: contain;
+    border: 3px double midnightblue;
+    cursor: url(img/pedang1.png), auto;
+    background-color: mediumslateblue;
+    margin: auto;
+    overflow: hidden;
+    position: relative;
+}
+
+.container.turun .c3, .container.turun .nanas, .container.turun .mangga, .container.turun .semangka, .container.turun .jambu, .container.turun .lemon, .container.turun .strawberry {
+    bottom: -100px;
+}
+
+.skor {
+    width: 150px;
+    height: 50px;
+    line-height: 50px;
+    background-color: cornflowerblue;
+    color: midnightblue;
+    margin: auto;
+    text-align: center;
+    font-weight: bold;
+    border: 3px double midnightblue;
+    border-radius: 0 0 50px 50px;
+}
+
+.mulai-game:hover {
+    color: rgb(137, 148, 148);
+    text-shadow: 0 0 3px midnightblue;
+}
+
+.container:active {
+    cursor: url(img/pedang2.png), auto;
+}

@@ -4,7 +4,7 @@ body {
 }
 
 .container {
-	width: 50%;
+	width: 75%;
 	margin: 33px auto;
 	background-color: lavender;
 	border-radius: 7px;
@@ -29,6 +29,46 @@ body {
 		padding: 15px;
 	}
 
+		.suit-game {
+			background-image: url(img/bg/gbk.jpg);
+			background-size: cover;
+		}
+	
+		.tebak-angka {
+			background-image: url(img/bg/angka.jpg);
+			background-size: cover;
+		}
+	
+		.survive-minefields {
+			background-image: url(img/bg/dirt.png);
+			background-size: cover;
+		}
+	
+		.hit-tobi {
+			background-image: url(img/bg/bg-tanah.jpg);
+			background-size: cover;
+		}
+	
+		.slice-it {
+			background-image: url(img/bg/wood.jpg);
+			background-size: cover;
+		}
+	
+		.tetris {
+			background-image: url(img/bg/tetris.jpg);
+			background-size: cover;
+		}
+
+		.paddle-pong {
+			background-image: url(img/bg/pong.jpg);
+			background-size: cover;
+		}
+
+		.new-tictactoe {
+			background-image: url(img/bg/board-game.jpg);
+			background-size: cover;
+		}
+
 	li {
 		float: left;
 		margin: 15px;
@@ -41,15 +81,17 @@ body {
 
 	.isi ul li span {
 		background-color: indigo;
+		padding: 7px;
 		border-radius: 7px;
 		text-decoration: none;
 		text-align: center;
 		color: lightblue;
 		position: absolute;
-		left: 25px;
-		top: 33px;
+		right: 0;
+		bottom: 0;
 		text-shadow: 0 0 3px black;
 	}
+	
 
 	.game {
 		width: 100px;
@@ -60,6 +102,7 @@ body {
 			box-shadow: 0 0 3px 3px indigo;
 			opacity: .3;
 		}
+	
 
 .clear {
 		clear: both;

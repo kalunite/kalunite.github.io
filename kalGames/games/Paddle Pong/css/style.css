@@ -1,0 +1,50 @@
+body{
+    background-color: green;
+    font-family: book antiqua;
+}
+h1 {
+    text-align: center;
+    font-size: 25px;
+    color: lightgrey;
+    text-shadow: 0 0 3px rgb(100, 50, 15);
+    margin-top: 50px;
+}
+.container {
+    width: 600px;
+    margin: auto;
+    margin-top: 475px;
+    display: flex;
+}
+.mulai-multipemain, .mulai-vs-com {
+    width: 200px;
+    height: 70px;
+    line-height: 75px;
+    text-align: center;
+    margin: auto;
+    font-size: 20px;
+    background-color: lightgrey;
+    color: rgb(100, 50, 15);
+    cursor: pointer;
+    border-radius: 50px 50% 50px 50%;
+    z-index: 99;
+}
+#pong {
+    border: 2px solid lightgrey;
+    background-image: url(img/pong.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+    position: absolute;
+    margin :auto;
+    top:0;
+    right:0;
+    left:0;
+    bottom:0;
+}
+.mulai-multipemain:hover, .mulai-vs-com:hover {
+    background-color: rgb(100, 50, 15);
+    color: lightgrey;
+}
+.mulai-multipemain:active, .mulai-vs-com:active {
+    opacity: 0.7;
+}

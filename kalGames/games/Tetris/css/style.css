@@ -1,0 +1,48 @@
+body {
+    background-color: coral;
+    font-family: book antiqua;
+}
+#tetris {
+    display: block;
+    margin: auto;
+    box-shadow: 0 0 3px 3px azure;
+    background-image: url(img/Tetris.jpg);
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: cover;
+}
+#score {
+    font-size: 25px;
+    text-shadow: 0 0 3px midnightblue;
+    box-shadow: 0 0 3px 3px azure;
+    padding: 10px;
+    margin: auto;
+    margin-top: 25px;
+    border-radius: 50% 50% 0 0;
+    text-align: center;
+    width: 280px;
+    height: 30px;
+    background-color: aqua;
+    z-index: 99;
+}
+#mulai-game {
+    font-size: 25px;
+    text-shadow: 0 0 3px midnightblue;
+    box-shadow: 0 0 3px 3px azure;
+    padding: 10px;
+    margin: auto;
+    line-height: 30px;
+    border-radius: 0 0 50% 50%;
+    text-align: center;
+    width: 280px;
+    height: 30px;
+    background-color: aqua;
+    z-index: 99;
+    cursor: pointer;
+}
+#mulai-game:hover {
+    background-color: azure;
+}
+#mulai-game:active {
+    opacity: 0.7;
+}
