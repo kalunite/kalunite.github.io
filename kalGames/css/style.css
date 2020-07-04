@@ -10,100 +10,110 @@ body {
 	border-radius: 7px;
 }
 
-	.judul {
-		width: 250px;
-		height: 75px;
-		padding: 15px;
-		margin-bottom: 33px;
-		font-size: 50px;
-		font-weight: bold;
-		background-color: indigo;
-		color: lightblue;
-		border: 3px solid black;
-		border-radius: 7px 50% 50% 50%;
-		text-shadow: 0 0 7px rgba(255, 255, 255, .3);
-		filter: drop-shadow(7px 7px 7px indigo);
-	}
+.judul {
+	width: 250px;
+	height: 75px;
+	padding: 15px;
+	margin-bottom: 33px;
+	font-size: 50px;
+	font-weight: bold;
+	background-color: indigo;
+	color: lightblue;
+	border: 3px solid black;
+	border-radius: 7px 50% 50% 50%;
+	text-shadow: 0 0 7px rgba(255, 255, 255, .3);
+	filter: drop-shadow(7px 7px 7px indigo);
+}
 
-	.isi {
-		padding: 15px;
-	}
+.isi {
+	padding: 15px;
+}
 
-		.suit-game {
-			background-image: url(img/bg/gbk.jpg);
-			background-size: cover;
-		}
-	
-		.tebak-angka {
-			background-image: url(img/bg/angka.jpg);
-			background-size: cover;
-		}
-	
-		.survive-minefields {
-			background-image: url(img/bg/dirt.png);
-			background-size: cover;
-		}
-	
-		.hit-tobi {
-			background-image: url(img/bg/bg-tanah.jpg);
-			background-size: cover;
-		}
-	
-		.slice-it {
-			background-image: url(img/bg/wood.jpg);
-			background-size: cover;
-		}
-	
-		.tetris {
-			background-image: url(img/bg/tetris.jpg);
-			background-size: cover;
-		}
+.suit-game {
+	background-image: url(img/bg/gbk.jpg);
+	background-size: contain;
+}
 
-		.paddle-pong {
-			background-image: url(img/bg/pong.jpg);
-			background-size: cover;
-		}
+.tebak-angka {
+	background-image: url(img/bg/angka.jpg);
+	background-size: contain;
+}
 
-		.new-tictactoe {
-			background-image: url(img/bg/board-game.jpg);
-			background-size: cover;
-		}
+.survive-minefields {
+	background-image: url(img/bg/dirt.png);
+	background-size: contain;
+}
 
-	li {
-		float: left;
-		margin: 15px;
-		display: block;
-		position: relative;
-		border-radius: 7px 50% 7px 50%;
-		overflow: hidden;
-		filter: drop-shadow(0 0 3px black);
-	}
+.hit-tobi {
+	background-image: url(img/bg/bg-tanah.jpg);
+	background-size: contain;
+}
 
-	.isi ul li span {
-		background-color: indigo;
-		padding: 7px;
-		border-radius: 7px;
-		text-decoration: none;
-		text-align: center;
-		color: lightblue;
-		position: absolute;
-		right: 0;
-		bottom: 0;
-		text-shadow: 0 0 3px black;
-	}
-	
+.slice-it {
+	background-image: url(img/bg/wood.jpg);
+	background-size: contain;
+}
 
-	.game {
-		width: 100px;
-		height: 100px;
-	}
+.tetris {
+	background-image: url(img/bg/tetris.jpg);
+	background-size: contain;
+}
 
-		li:hover {
-			box-shadow: 0 0 3px 3px indigo;
-			opacity: .3;
-		}
-	
+.paddle-pong {
+	background-image: url(img/bg/pong.jpg);
+	background-size: contain;
+}
+
+.new-tictactoe {
+	background-image: url(img/bg/board-tictactoe.jpg);
+	background-size: contain;
+}
+
+.classic-sos {
+	background-image: url(img/bg/board-sos.png);
+	background-size: contain;
+}
+
+.draughts {
+	background-image: url(img/bg/draughts.png);
+	background-size: contain;
+}
+
+li {
+	float: left;
+	margin: 15px;
+	display: block;
+	position: relative;
+	border-radius: 7px 50% 7px 50%;
+	overflow: hidden;
+	filter: drop-shadow(0 0 3px black);
+}
+
+.isi ul li span {
+	background-color: indigo;
+	padding: 7px;
+	border-radius: 7px;
+	text-decoration: none;
+	text-align: center;
+	color: lightblue;
+	position: absolute;
+	right: 0;
+	bottom: 0;
+	text-shadow: 0 0 3px black;
+}
+
+
+.game {
+	width: 100px;
+	height: 100px;
+}
+
+li:hover {
+	box-shadow: 0 0 3px 3px indigo;
+	opacity: .3;
+}
+
 
 .clear {
-		clear: both;
-	}
+	clear: both;
+}
