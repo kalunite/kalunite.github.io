@@ -79,6 +79,11 @@ body {
 	background-size: contain;
 }
 
+.draughts {
+	background-image: url(img/bg/ids.png);
+	background-size: contain;
+}
+
 li {
 	float: left;
 	margin: 15px;
